@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.header, .footer, .hero {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.header {
+    flex-wrap: wrap;
+}
+
+.footer {
+    color: #f9faf8;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.link, .hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-image {
+    width: 1500px;
+    height: 300px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 8px 30px;
+    border: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 300px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.item-image {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    border: 5px solid #3882f6;
+}
+
+.item-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote h2 {
+    text-align: end;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-content h2 {
+    margin: 0;
+}
+
+.action-content p {
+    margin: 0;
+}
+
+.action-call {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 50px 300px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.action-call button {
+    border: solid #f9faf8;
+}
